@@ -3,15 +3,22 @@ body {
 }
 
 .container-fluid {
+    position: relative;
     padding: 0;
 }
+:root{
+    --primary: hsla(0, 0%, 93%, 1);
+    --secondary: hsla(0, 0%, 93%, .001);
+}
 #title-section {
-    background-image: url('images/Screenshot\ 2023-02-18\ 213311.png');
+    position: relative;
+    background-image: linear-gradient(90deg, var(--primary), var(--secondary)), url('images/Screenshot\ 2023-02-18\ 213311.png');
+    /* background-image: url('images/Screenshot\ 2023-02-18\ 213311.png'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
-    min-height: 100vh;
-
+    min-height: 60vh;
+    max-height: 80vh;
 }
 
 .navbar {
@@ -38,8 +45,8 @@ body {
 }
 #title-box {
     position: relative;
-    background-color: #303841;
-    opacity: 80%;
+    /* background-color: #303841; */
+    /* opacity: 80%; */
     top: 50px;
     left: 10%;
     width: 50%;
@@ -48,25 +55,24 @@ body {
     
 }
 #main-heading {
-   
     text-align: left;
     font-family:'Montserrat';
     font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    color: #fff;
-
+    font-size: 5.5rem;
+    line-height: 1.2;
+    color:#393E46;
+    text-shadow: 2px 2px 5px #FFF;
 }
 #title-image {
     width: 110%;
     position: relative; 
 }
 
-.inner-border {
+/* .inner-border {
     border: 30px solid #303841;
     box-shadow: inset 0px 0px 0px 3px #EEEEEE;
-    /* box-sizing: border-box;  Include padding and border in element's width and height  */
-}
+    /* box-sizing: border-box;  Include padding and border in element's width and height  
+} */
 
 #inspection-plaque {
     text-align: center;
@@ -79,7 +85,10 @@ body {
     border: solid black 5px;
     border-radius: 3px;
     float: right;
-    margin-bottom: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    
     
  
 }
