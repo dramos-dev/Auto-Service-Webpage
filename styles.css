@@ -1,0 +1,103 @@
+body {
+    background-color: #EEEEEE;
+}
+
+.container-fluid {
+    padding: 0;
+}
+#title-section {
+    background-image: url('images/Screenshot\ 2023-02-18\ 213311.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    min-height: 100vh;
+
+}
+
+.navbar {
+    background-color: #303841;
+    font-size: 1.5rem;
+    padding: 0 5% 0 3%;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.nav-link {
+    color: #fff;
+}
+#spanish-button {
+    border: 2px solid;
+    border-color: #EEEEEE;
+}
+.btn {
+    font-size: 1.5rem;;
+} 
+
+.nav-item {
+    padding: 0 18px;
+}
+#title-box {
+    position: relative;
+    background-color: #303841;
+    opacity: 80%;
+    top: 50px;
+    left: 10%;
+    width: 50%;
+}
+.title-column {
+    
+}
+#main-heading {
+   
+    text-align: left;
+    font-family:'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+
+}
+#title-image {
+    width: 110%;
+    position: relative; 
+}
+
+.inner-border {
+    border: 30px solid #303841;
+    box-shadow: inset 0px 0px 0px 3px #EEEEEE;
+    /* box-sizing: border-box;  Include padding and border in element's width and height  */
+}
+
+#inspection-plaque {
+    text-align: center;
+    background-color: gold;
+    width:150px;
+    height:200px;
+    font-size:1REM;
+    line-height: 1.2;
+    font-weight: bold;
+    border: solid black 5px;
+    border-radius: 3px;
+    float: right;
+    margin-bottom: 100px;
+    
+ 
+}
+#great-seal{
+    width: 60px;
+}
+
+
+
+#map{
+    position:relative;
+    text-align: center;
+    padding: 0;
+    
+}
+
+/* color palette
+#222831
+#393E46
+#00ADB5
+#EEEEEE */
