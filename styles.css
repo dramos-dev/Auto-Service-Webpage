@@ -8,7 +8,7 @@ body {
 }
 :root{
     --primary: hsla(0, 0%, 93%, 1);
-    --secondary: hsla(0, 0%, 93%, .001);
+    --secondary: hsla(234, 89%, 45%, 0.4);
 }
 #title-section {
     position: relative;
@@ -61,12 +61,9 @@ body {
     font-size: 5.5rem;
     line-height: 1.2;
     color:#393E46;
-    text-shadow: 2px 2px 5px #FFF;
+    text-shadow: 2px 2px 5px #f4f1f2;
 }
-#title-image {
-    width: 110%;
-    position: relative; 
-}
+
 
 /* .inner-border {
     border: 30px solid #303841;
@@ -84,10 +81,9 @@ body {
     font-weight: bold;
     border: solid black 5px;
     border-radius: 3px;
-    float: right;
-    position: absolute;
-    bottom: 0px;
-    right: 30px;
+    position: relative;
+    margin: 20px auto;
+   
     
     
  
