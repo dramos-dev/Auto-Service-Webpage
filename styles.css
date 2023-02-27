@@ -74,9 +74,9 @@ body {
 #inspection-plaque {
     text-align: center;
     background-color: gold;
-    width:150px;
-    height:200px;
-    font-size:1REM;
+    width:100px;
+    height:150px;
+    font-size:.7REM;
     line-height: 1.2;
     font-weight: bold;
     border: solid black 5px;
