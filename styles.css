@@ -72,6 +72,17 @@ body {
     top: 5%;
     left: 10%;
 }
+.map-container {
+    width: 100%;
+    position: absolute;
+    height: 60vh;
+    display:flex;
+}
+.map {
+    width: 80%;
+    max-width: 800px;
+    height: 80%
+}
 
 @media (max-width: 768px) {
     .masthead{ 
@@ -136,6 +147,22 @@ body {
     color: #393E46;
     text-shadow: 2px 2px 5px #f4f1f2;
 }
+
+.carousel-inner {
+    
+}
+
+.carousel-item {
+    height: 30vh;
+}
+
+.carousel-item img {
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+    
+}
+
 
 
 /* .inner-border {
