@@ -42,8 +42,9 @@ body {
     font-size: 1.7rem;
     font-weight: 500;
     color: rgb(46, 43, 43);
-    font-family: 'Lilita One', sans-serif; 
+    font-family: 'Lilita One', sans-serif;
 }
+
 .top-number:hover {
     text-decoration: none;
     color: #1e1f46;
@@ -63,7 +64,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0, 0, 0, .2);
 }
 
 .color-overlay h1 {
@@ -72,32 +73,21 @@ body {
     top: 5%;
     left: 10%;
 }
+
 .map-container {
     width: 100%;
     position: absolute;
     height: 60vh;
-    display:flex;
+    display: flex;
 }
+
 .map {
     width: 80%;
     max-width: 800px;
     height: 80%
 }
 
-@media (max-width: 768px) {
-    .masthead{ 
-        min-height: 30vh;
-    }
-    .color-overlay h1 {
-        font-size: calc(1.525rem + 3.3vw);
-    }
-}
 
-@media (max-width: 1190px) {
-    .top-right-items {
-        display: none;
-    }
-}
 
 
 
@@ -106,7 +96,7 @@ body {
     background-image: url('images/petrol-station_s.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .centered {
@@ -148,19 +138,27 @@ body {
     text-shadow: 2px 2px 5px #f4f1f2;
 }
 
+.carousel {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 600px;
+}
+
 .carousel-inner {
-    
+    width: 600px;
+    margin: 0 auto;
 }
 
 .carousel-item {
-    height: 30vh;
+    height: 40vh;
 }
 
 .carousel-item img {
     margin: 0 auto;
     overflow: hidden;
-    height: 100%;
-    
+    height: 300px;
+    width: 600px;
+
 }
 
 
@@ -203,3 +201,35 @@ body {
 #393E46
 #00ADB5
 #EEEEEE */
+
+@media (max-width: 1190px) {
+    .top-right-items {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh;
+    }
+
+    .color-overlay h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+
+    .carousel {
+        width: calc(300px + 20vw);
+    }
+
+    .carousel-item img {
+        margin: 0 auto;
+        overflow: hidden;
+        height: 100%;
+        width: calc(300px + 20vw);
+
+    }
+
+    .carousel-inner {
+        width: calc(300px + 20vw);
+    }
+}
