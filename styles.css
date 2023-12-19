@@ -1,3 +1,8 @@
+/* font-family: 'Lilita One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
 body {
     background-color: #f8f9fa;
     text-align: center;
@@ -45,8 +50,9 @@ body {
 }
 
 .feature-text {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
     margin: 5px 10px;
 }
 
@@ -114,6 +120,7 @@ body {
 
 .color-overlay h1 {
     height: 40vh;
+    width: 80%;
     position: relative;
     font-size: 5rem;
     top: 5%;
